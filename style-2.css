@@ -1,18 +1,88 @@
-p{
+header{
+    background-color:lightgray;
+    font-size:40px;
+    text-align: center;
+    padding: 20px;
+}
+
+h2{
+    text-align: center;
+}
+ul{
+    list-style-type: none;
+    width:200px;
+    background-color: lightgray;
+    outline: 12x black;
+}
+
+li a{
+    display: block;
+    color:black;
+    padding: 6px 14px;
+}
+
+li a:hover{
+    background-color:white;
+    color:black;
+}
+
+.div1{
     background-color: lightslategray;
     color: black;
-    width:10%;
-    padding-bottom:60px;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
     text-align: center;
-    padding-top:20px;
+    float: right;
+    padding: 10px;
+    margin: 20px;
 }
 
-header{
-    background-color:gray;
-    margin:100px;
+.div2{
+    background-color: lightslategray;
+    color: black;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 10px;
+    margin: 20px;
 }
 
-#buttons{
-    padding:10px;
-    width: 40%;
+.div3{
+    background-color: lightslategray;
+    color: black;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 10px;
+    margin: 20px;
 }
+
+.div4{
+    background-color: lightslategray;
+    color: black;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 10px;
+    margin: 20px;
+}
+
+.div5{
+    background-color: lightslategray;
+    color: black;
+    height: 150px;
+    width: 150px;
+    display: inline-block;
+    text-align: center;
+    float: right;
+    padding: 10px;
+    margin: 20px;
+}
+
