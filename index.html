@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Crimson+Text&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Weather Dashboard</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-10">
+                 <nav class="navbar navbar-light bg-light" style ="color:rosybrown">
+                    <span class="navbar-text">
+                         Weather Dashboard
+                    </span>
+                </nav>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row">
+            <div class="col-lg-4">
+                <p>Search for a City:</p>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                        id="value">
+                    <input class="btn btn-primary" type="submit" value="Submit" id="submit">
+                </form>
+                <div class="cityPlaceHolder"></div>
+            </div>
+        </div>
+        <div class="col-lg-8"></div>
+        <div class="row">
+            <div class="col-lg-4"></div>
+            <div class="col-lg-8" id="weather1">
+                <div class="card1 remove">
+                    <div class="city"></div>
+                    <div class="temp">Temperature: </div>
+                    <div class="condition"></div>
+                    <img src="" alt="icon" id="weatherIcon">
+                    <div class="humidity">Humidity: </div>
+                    <div class="wind"></div>
+                    <div class="uv"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12" id="weather2">
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="assets/javascript/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,41 @@
+body{
+    background-image: url("../images/weather.png");
+}
+.remove {
+    display: none;
+}
+
+#weather1 {
+    margin: 0 auto;
+}
+
+#weather2 {
+    margin: 0 auto;
+}
+
+.day1 {
+    background-color: #27CCEA;
+}
+
+.day2 {
+    background-color: #27CCEA;
+}
+
+.day3 {
+    background-color: #27CCEA;
+}
+
+.day4 {
+    background-color: #27CCEA;
+}
+
+.day5 {
+    background-color: #27CCEA;
+}
+
+#navTitle {
+    font-family: 'Crimson Text', serif;
+    position: relative;
+    left: 300px;
+    font-size: 40px;
+}
